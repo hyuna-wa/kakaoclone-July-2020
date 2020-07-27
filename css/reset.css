@@ -130,5 +130,6 @@ table {
 
 input:focus {
   outline: none;
-  border-color: var(--yellow);
+  /* border-color: var(--yellow); */
+  /* why does above code not work? */
 }
