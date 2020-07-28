@@ -1,16 +1,13 @@
-.header__info {
+.friends-name-display {
   background-color: var(--lightgrey);
   text-align: center;
-  align: center;
-  color: rgba(0, 0, 0, 0.2);
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 13px 0;
   font-size: 14px;
 }
 
-.header__info span:nth-child(2) {
-  color: rgba(0, 0, 0, 0.8);
+.friends-name-display span {
   margin: 0 5px;
+}
+.friends-name-display i {
+  color: rgba(0, 0, 0, 0.2);
 }
