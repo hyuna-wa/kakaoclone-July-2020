@@ -1,8 +1,13 @@
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+
 .friends-name-display {
   background-color: var(--lightgrey);
   text-align: center;
   padding: 13px 0;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .friends-name-display span {
@@ -10,4 +15,16 @@
 }
 .friends-name-display i {
   color: rgba(0, 0, 0, 0.2);
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.3);
+  padding: 10px 0 25px 0;
+}
+
+.friends-screen__channel-header span {
+  font-size: 14px;
 }
