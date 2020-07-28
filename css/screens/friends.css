@@ -1,7 +1,3 @@
-.friends-screen {
-  padding: 0 var(--horizontal-space);
-}
-
 .friends-name-display {
   background-color: var(--lightgrey);
   text-align: center;
@@ -22,7 +18,7 @@
   justify-content: space-between;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.3);
-  padding: 10px 0 25px 0;
+  padding-top: 10px;
 }
 
 .friends-screen__channel-header span {
