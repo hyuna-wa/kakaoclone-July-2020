@@ -32,27 +32,7 @@
         <a class="screen-header__icon"><i class="fas fa-cog fa-lg"></i></a>
       </div>
     </header>
-    <main class="chats-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar"
-            src="images/user2.jpg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Hyunwha
-            </h4>
-            <h6 class="user-commponent__subtitle">
-              Hello. Are you trying hard enough?
-            </h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span>21:22</span>
-          <span class="chats__notification">1</span>
-        </div>
-      </div>
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -69,8 +49,28 @@
           </div>
         </div>
         <div class="user-component__column">
-          <span>21:22</span>
-          <span class="chats__notification">1</span>
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar"
+            src="images/user2.jpg"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Soorim
+            </h4>
+            <h6 class="user-commponent__subtitle">
+              Be yourself. Be confident!
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -83,7 +83,7 @@
         </li>
         <li class="nav-bar__item">
           <a class="nav-bar__link" href="chats.html">
-            <span class="nav-bar__notification">1</span>
+            <span class="nav-bar__notification badge">1</span>
             <i class="fas fa-comment"></i
           ></a>
         </li>

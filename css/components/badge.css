@@ -1,25 +1,13 @@
-.chats-screen {
-  display: flex;
-  flex-direction: column;
-}
-
-.user-component__column {
-  position: relative;
-}
-
-.chats__notification {
+.badge {
   background-color: tomato;
   width: 20px;
   height: 20px;
+  display: block;
   border-radius: 50%;
   color: white;
   font-size: 10px;
   font-weight: 600;
-  display: block;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-top: 10px;
 }
