@@ -133,3 +133,8 @@ input:focus {
   /* border-color: var(--yellow); */
   /* why does above code not work? */
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

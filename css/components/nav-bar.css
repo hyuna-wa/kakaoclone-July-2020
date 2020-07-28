@@ -1,0 +1,18 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 45px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f9f9fa;
+}
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar__link {
+  font-size: 22px;
+  color: #30363e;
+}
