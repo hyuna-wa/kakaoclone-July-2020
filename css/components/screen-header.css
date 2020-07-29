@@ -14,3 +14,7 @@
 .screen-header__icons a {
   margin-left: 20px;
 }
+
+.screen-header__icon {
+  position: relative;
+}

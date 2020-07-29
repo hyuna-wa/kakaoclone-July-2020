@@ -17,16 +17,3 @@
   color: #30363e;
   position: relative;
 }
-
-.nav-bar__notification {
-  position: absolute;
-  left: 15px;
-  bottom: 15px;
-}
-
-.nav-bar__notification--blank {
-  width: 7px;
-  height: 7px;
-  left: 25px;
-  bottom: 25px;
-}

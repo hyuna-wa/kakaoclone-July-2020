@@ -1,7 +1,7 @@
 .badge {
-  background-color: tomato;
   width: 20px;
   height: 20px;
+  background-color: tomato;
   display: block;
   border-radius: 50%;
   color: white;
@@ -10,4 +10,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.badge--lg {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.badge--sm {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
 }
