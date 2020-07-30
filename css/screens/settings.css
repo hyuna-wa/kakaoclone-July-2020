@@ -1,21 +1,4 @@
-.setting-header {
-  margin: 15px var(--horizontal-space);
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.setting-header i {
-  font-size: 25px;
-}
-
-.setting-header__title {
-  font-size: 23px;
-  font-weight: 600;
-}
-
-.setting-row {
+.settings-setting {
   padding: 23px 0;
   border-bottom: var(--main-border);
   font-size: 22px;
@@ -23,8 +6,9 @@
   justify-content: space-between;
 }
 
-.setting-row i {
+.setting-row__column i {
   margin-right: 10px;
+  opacity: 0.9;
 }
 
 .setting-row__column:nth-child(2) {
