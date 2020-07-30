@@ -61,7 +61,7 @@
   align-items: flex-end;
 }
 
-.user-component__column:last-child i {
+.more-screen .user-component__column:last-child i {
   color: black;
   font-size: 32px;
 }

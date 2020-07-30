@@ -2,3 +2,14 @@
   display: flex;
   justify-content: space-between;
 }
+
+.suggestions__suggestion .actions__action i {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  color: white;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
