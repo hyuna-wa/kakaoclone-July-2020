@@ -24,6 +24,7 @@
 
 .chat__timestamp {
   margin-top: 100px;
+  margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
   border-radius: 20px;
@@ -32,56 +33,78 @@
   align-self: center;
 }
 
-.chat__partner {
-  margin: 20px 0;
+.message {
+  margin: 10px 0;
   display: flex;
 }
 
-.chat__partner__column {
+.message__column {
   display: flex;
 }
 
-.chat__partner__column:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-}
-.chat__partner__img {
+.message__img {
   width: 45px;
   height: 45px;
   border-radius: 15px;
 }
-.chat__partner__name {
+
+.message__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.message__name {
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
 }
 
-.chat__partner__row {
+.message__list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-.chat__partner__comment {
+.message__row {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.message__comment {
   background-color: white;
-  border-radius: 6px;
+  border-radius: 8px;
+  border-top-left-radius: 0;
   padding: 5px 10px;
   font-size: 20px;
-  position: relative;
-  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
-.chat__partner__timestamp {
-  position: absolute;
-  bottom: 0px;
-  right: -50px;
+.message__timestamp {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.7);
 }
 
-.chat__myself__comment {
+.message--self {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message--self .message__comment {
   background-color: var(--yellow);
-  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 8px;
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.message--self .message__row {
+  flex-direction: row-reverse;
+}
+
+/* .chat__myself__comment {
+  background-color: var(--yellow);
+  border-radius: 8px;
+  border-top-right-radius: 0;
   padding: 5px 10px;
   font-size: 20px;
   position: relative;
@@ -99,4 +122,4 @@
   position: absolute;
   bottom: 0;
   left: -50px;
-}
+} */
