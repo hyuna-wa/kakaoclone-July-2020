@@ -25,7 +25,7 @@
 .section-divide {
   margin-top: 25px;
   padding-top: 15px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
 }
 
 .section-divide--two-column {
@@ -41,10 +41,9 @@
 
 .section-divide__text {
   color: rgba(0, 0, 0, 0.5);
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 100px 0;
+  display: block;
+  text-align: center;
 }
 
 .section-divide__title__link {
@@ -76,11 +75,19 @@
   display: flex;
   align-items: center;
 }
+
+.openchat__details .divider {
+  width: 1px;
+  height: 15px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .openchat__user-img {
   height: 20px;
   width: 20px;
   border-radius: 25%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: var(--main-border);
   margin-right: 10px;
 }
 
@@ -115,6 +122,6 @@
 }
 
 .openchat__border {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
   margin: 10px 0;
 }
