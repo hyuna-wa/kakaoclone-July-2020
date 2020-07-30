@@ -59,6 +59,7 @@
 .chat__partner__row {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .chat__partner__comment {
@@ -89,13 +90,13 @@
 
 .chat__myself {
   display: flex;
-
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .chat__myself__timestamp {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
-  left: -60px;
+  left: -50px;
 }
