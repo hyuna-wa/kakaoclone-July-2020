@@ -31,47 +31,69 @@
         ></a>
       </div>
     </header>
-    <div class="friends-name-display">
-      <span><i class="fas fa-info-circle"></i></span>
-      <span>Friends' Names Display</span>
-      <span><i class="fas fa-chevron-right"></i></span>
-    </div>
+
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="images/user1.jpg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <!-- <h6 class="user-commponent__subtitle">This is a test subtitle.</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
+      <div class="actions">
+        <a href="#" class="actions__action">
+          <i class="fas fa-qrcode fa-lg"></i>
+          <span>QR Code</span>
+        </a>
+        <a href="#" class="actions__action">
+          <i class="far fa-address-book fa-lg"></i>
+          <span>Add by Contacts</span>
+        </a>
+        <a href="#" class="actions__action">
+          <i class="fas fa-passport fa-lg"></i>
+          <span>Add by ID</span>
+        </a>
+        <a href="#" class="actions__action">
+          <i class="far fa-envelope fa-lg"></i>
+          <span>Invite</span>
+        </a>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
+      <div class="section-divide">
+        <h6 class="section-divide__title">Recommended Friends</h6>
+        <span class="section-divide__text"
+          >You have no recommended friends.</span
+        >
+      </div>
+      <div class="section-divide">
+        <div class="section-divide--two-column">
+          <h6 class="section-divide__title">Open Chats</h6>
+          <a class="section-divide__title__link">Go to Openchat Home ></a>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="images/user2.jpg"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!-- <h6 class="user-commponent__subtitle">This is a test subtitle.</h6> -->
+        <div class="openchats">
+          <div class="openchat">
+            <div class="openchat__column--left">
+              <span class="openchat__title">#BTS</span>
+              <span class="openchat__subtitle">#BTS#AMRY#FRIENDS</span>
+              <div class="openchat__details">
+                <img class="openchat__user-img" src="images/user1.jpg" />
+                <span class="openchat__member-number">802 members | </span>
+                <span class="openchat__member-status">Active</span>
+              </div>
+            </div>
+            <div class="openchat__column--right">
+              <img src="images/bts.jpg" class="openchat__main-img" />
+              <span class="openchat__likes">❤ 808</span>
             </div>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right"></i>
+          <div class="openchat__border"></div>
+          <div class="openchat">
+            <div class="openchat__column--left">
+              <span class="openchat__title">Bts Gang~</span>
+              <span class="openchat__subtitle"
+                >#jolguitang#sohandsome#love#forever...</span
+              >
+              <div class="openchat__details">
+                <img class="openchat__user-img" src="images/user2.jpg" />
+                <span class="openchat__member-number">802 members | </span>
+                <span class="openchat__member-status">Active</span>
+              </div>
+            </div>
+            <div class="openchat__column--right">
+              <img src="images/efron.jpg" class="openchat__main-img" />
+              <span class="openchat__likes">❤ 808</span>
             </div>
           </div>
         </div>
