@@ -24,8 +24,78 @@
 
 .chat__timestamp {
   margin-top: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
   border-radius: 20px;
   padding: 10px;
+  text-align: center;
+  align-self: center;
+}
+
+.chat__partner {
+  margin: 20px 0;
+  display: flex;
+}
+
+.chat__partner__column {
+  display: flex;
+}
+
+.chat__partner__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.chat__partner__img {
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+}
+.chat__partner__name {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.chat__partner__row {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__partner__comment {
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.chat__partner__timestamp {
+  position: absolute;
+  bottom: 0px;
+  right: -50px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.chat__myself__comment {
+  background-color: var(--yellow);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.chat__myself {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.chat__myself__timestamp {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: -60px;
 }
