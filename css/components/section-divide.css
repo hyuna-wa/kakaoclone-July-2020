@@ -1,0 +1,31 @@
+.section-divide {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: var(--main-border);
+}
+
+.section-divide--two-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-divide__title {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section-divide__title--black {
+  color: rgba(0, 0, 0, 1);
+}
+
+.section-divide__text {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 100px 0;
+  display: block;
+  text-align: center;
+}
+
+.section-divide__title__link {
+  color: rgba(0, 0, 0, 0.5);
+}

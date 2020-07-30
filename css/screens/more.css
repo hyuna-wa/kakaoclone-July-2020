@@ -1,0 +1,4 @@
+.suggestions__suggestion {
+  display: flex;
+  justify-content: space-between;
+}
