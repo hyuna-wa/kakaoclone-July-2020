@@ -15,6 +15,22 @@
   margin-left: 20px;
 }
 
+@keyframes rotateHeaderIcon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .screen-header__icon i {
   position: relative;
+}
+
+.screen-header__icon i:hover {
+  animation: rotateHeaderIcon 1s linear infinite;
 }
