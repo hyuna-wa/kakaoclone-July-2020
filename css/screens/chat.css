@@ -18,8 +18,20 @@
   position: fixed;
 }
 
+@keyframes chatFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .main-chat {
   z-index: 0;
+  animation: chatFadeIn 0.3s ease-in-out forwards;
 }
 
 .chat__timestamp {
@@ -33,9 +45,21 @@
   align-self: center;
 }
 
+@keyframes messageFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .message {
   margin: 10px 0;
   display: flex;
+  animation: messageFadeIn 0.5s ease-in-out;
 }
 
 .message__column {
@@ -84,9 +108,21 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+@keyframes messageSelfFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .message--self {
   display: flex;
   justify-content: flex-end;
+  animation: messageSelfFadeIn 0.5s ease-in-out;
 }
 
 .message--self .message__comment {

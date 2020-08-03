@@ -9,6 +9,24 @@
   flex-direction: column;
 }
 
+@keyframes scaleHeart {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.6);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+  }
+}
+.openchat__likes:hover i {
+  will-change: transform;
+  /* above line tells the browser about the change in advnace, so it can handle the change more smoothly  */
+  animation: scaleHeart 1s linear infinite;
+}
+
 .openchat__title {
   font-size: 20px;
   margin-bottom: 10px;
