@@ -170,6 +170,7 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
+  transition: transform 0.5s ease-in-out;
 }
 
 .write-message__plus {
@@ -190,6 +191,22 @@
   padding: 0 5px;
   background-color: var(--lightgrey);
   font-size: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.write-message:focus-within .write-message__plus,
+.write-message:focus-within i,
+.write-message:focus-within button {
+  opacity: 0;
+}
+
+.write-message:focus-within {
+  transform: translateY(80px);
+}
+
+.write-message:focus-within .write-message__input {
+  width: 100%;
+  transform: translateX(-50px) translateY(-80px);
 }
 
 .write-message__input input {
