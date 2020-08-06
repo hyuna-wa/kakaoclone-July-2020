@@ -11,6 +11,7 @@
 @import "components/actions.css";
 @import "components/section-divide.css";
 @import "components/alt-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
